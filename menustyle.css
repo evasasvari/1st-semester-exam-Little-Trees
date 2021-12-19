@@ -1,0 +1,23 @@
+#menuall{
+    
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Quicksand', sans-serif;
+
+
+}
+
+#logo1{
+    width: 180px;
+    padding-bottom: 50px;
+}
+
+#text>.menutext{
+    font-size: 25px;
+    text-decoration: none;
+    color: #39603B;
+    font-weight: bold;
+    
+
+    
+}

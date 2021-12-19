@@ -1,0 +1,548 @@
+
+* {
+    margin: 0%;
+    padding: 0%;
+    overflow-x: hidden;
+}
+
+/*header strats*/
+
+header{
+    background-image:url(images/phonehero.jpg);
+    height:500px; 
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+
+  
+}
+
+#logo2{
+    width:70px;
+   padding:20px;
+}
+#aburgermenu{
+    justify-content: right;
+    float:right;
+    padding-right: 20px;
+    padding-top:40px;
+        
+}
+#burgermenu{
+    width: 40px;
+
+}
+
+#menunav{
+    display:none;
+}
+
+header>#headercontent>div>h1{
+    color: #FFDA42;
+    font-size: 50pt;
+    text-align: center;
+    margin:auto;
+    padding: 1rem;
+    padding-bottom: 50px;
+    padding-top: 55px;
+    font-size:4rem;
+    font-family: 'Cookie', cursive;
+}
+#newfragrances{
+    margin:auto;
+    background-color:#FFDA42 ;
+    padding:15px;
+    border: #FFDA42;
+    font-family:'Quicksand', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    border: 2px solid #FFDA42;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+ 
+
+}
+
+
+
+.title1{
+    font-family:'Quicksand', sans-serif;
+    font-size: 20px;
+    color:#39603B;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 40px;
+}
+
+.title2{
+    font-family:'Quicksand', sans-serif;
+    font-size: 20px;
+    color:#39603B;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 40px;
+}
+
+
+.introsection{
+    
+    background-color: #FFF0B5;
+    width: fit-content;
+}
+
+.right>p{
+    text-align: center;
+    font-family:'Quicksand', sans-serif;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 16px;
+    padding-bottom: 20px;
+    font-weight: normal;
+
+    
+
+    
+
+}
+
+.left{
+    text-align: center;
+}
+
+.left>img{
+    width: 240px;
+    height: 240px;
+
+}
+
+
+
+
+
+
+
+
+.useit{
+    text-align: center;
+    font-family:'Quicksand', sans-serif;
+    font-size: medium;
+}
+
+.useit>img{
+    width:200px;
+    margin-bottom: 5px;
+    height: 170px;
+}
+
+.useit>p{
+    margin-bottom: 30px;
+    font-weight: bold   ;
+
+
+
+}
+
+
+
+
+
+
+
+
+#products{
+    text-align: center;
+
+}
+.product1>div>p{
+    margin-left: 30px;
+    margin-right: 30px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: medium;
+}
+.product2>div>p{
+    margin-left: 30px;
+    margin-right: 30px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: medium;
+}
+
+
+.productimg{
+    width: 150px;
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
+
+#cinnamonapple{
+    font-family:'Quicksand', sans-serif;
+    font-size: 16px;
+    color: #BD0000;
+    margin-bottom: 15px;
+}
+
+#orangeclove{
+    font-family:'Quicksand', sans-serif;
+    font-size: 16px;
+    color:#FDBD1A;
+    margin-bottom: 15px;
+
+}
+
+#gingerbread{
+    font-family:'Quicksand', sans-serif;
+    font-size: 16px;
+    color: #9C4E06;
+    margin-bottom:15px;
+
+
+}
+
+
+#products{
+    background-color: #D7F7D8;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+#giftpack{
+    background-color: #E9ABAB;
+    padding-bottom: 50px;
+
+}
+
+#giftpackcontent{
+    text-align: center;
+   
+}
+
+#gift{
+    width:200px;
+    margin-bottom: 20px;
+
+}
+
+#giftpackcontent>p{
+    margin-left: 30px;
+    margin-right: 30px;
+    font-family:'Quicksand', sans-serif;
+      font-size: medium;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#buy{
+    padding-bottom: 50px;
+    padding-top: 50px;
+    
+
+}
+
+#buycontent{
+    text-align: center;
+}
+#buycontent>p{
+    margin-left: 30px;
+    margin-right: 30px;
+    font-family:'Quicksand', sans-serif;
+    font-size: medium;
+    padding-bottom: 20px;
+    
+
+}
+
+#findshop{
+    margin:auto;
+    background-color:#FFDA42 ;
+    padding:15px;
+    border: #FFDA42;
+    font-family:'Quicksand', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    border: 2px solid #FFDA42;
+    cursor: pointer;
+    
+
+}
+
+
+#findshop:active{
+    background-color: white;
+    color:#FFDA42;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    height:fit-content;
+    background-color: #F0F0F0;
+    text-align: center;
+    padding-top:30px;
+    margin-top: 50px;
+    padding-bottom: 50px;
+    
+}
+footer>h2{
+
+    font-family:'Quicksand', sans-serif;
+    font-size: 20px;
+    color:#39603B;
+    text-align: center;
+    margin-bottom: 30px;
+    
+
+}
+
+footer>p{
+    padding-top: 3px;
+    padding-bottom: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family:'Quicksand', sans-serif;
+    font-size: medium;
+    width: 200px;
+
+    
+    
+}
+
+.contacttitle{
+    font-weight: bold;
+    color:#39603B;
+    margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+/* ----------------------------------desktop---------------------------------------*/
+
+@media only screen and (min-width: 768px) {
+
+
+
+
+    header{
+        background-image:url(images/desktophero.jpg);
+        height:fit-content; 
+        width: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size:cover;
+        height:fit-content;
+        
+    
+      
+    }
+    
+    
+    #logo1{
+        width:80px;
+       padding:50px;
+    }
+
+    #logo2{
+        display:none
+    }
+    #aburgermenu{
+        display: none;
+            
+    }
+    #burgermenu{
+        display: none;
+    
+    }
+    
+    #menunav{
+        display:flex;
+        
+    }
+
+    #menunav>a{
+        height: fit-content;
+    }
+    #logo1{
+        margin-right: 20px;
+
+    }
+    .menutext{
+        text-decoration: none;
+        font-size: 20px;
+        color: #FFDA42;
+        font-family:'Quicksand', sans-serif;
+        font-weight: bold;
+        margin-right: 2rem;
+        margin-top: 80px;
+        width: fit-content;
+        
+
+
+    }
+    header>#headercontent>div{
+     text-align: center;
+     margin: 0;
+     padding: 0;
+     width: 60%;
+    }
+    header>#headercontent>div>h1{
+        font-size: 7rem;
+   
+        padding-top: 150px;
+        text-align: center;
+    margin:auto;
+
+    padding-bottom: 50px;
+    padding-top: 55px;
+    }
+    header>#headercontent>div>#newfragrances{
+
+        padding:20px;
+        font-size: 20px;
+        margin-bottom: 50px;
+        
+        
+    }
+
+
+    .introsection{
+        width: 100%;
+        
+    }
+
+
+
+
+
+
+
+
+
+
+   
+    #products>div{
+        margin: auto;
+        width: 70%;
+    }
+    .product1>img{
+        float: left;
+       padding-left: 5rem;
+       padding-right: 1rem;
+       width: 300px;
+    }
+    .product1>div{
+        padding-top: 5rem;
+        padding-right: 5rem;
+        width: 30%;
+        float:right;
+        
+        
+    }
+    #cinnamonapple, #orangeclove, #gingerbread{
+        font-size: 40px;
+    }
+    .product2>div{
+        padding-top: 5rem;
+        width: 30%;
+        float: left;
+        padding-left: 6rem;
+        padding-right: 1rem;
+        font-size: 40px;
+       
+    }
+    .product2>img{
+        padding-right: 5rem;
+        float:right;
+        width: 300px;
+    }
+
+
+
+
+    #useitsection{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+
+
+
+
+    #giftpackcontent>p{
+        margin:auto;
+        width: 400px;
+        font-size: 20px;
+    }
+
+
+
+
+
+
+
+    #buycontent>p{
+        width:400px;
+        margin:auto;
+        font-size: 20px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
